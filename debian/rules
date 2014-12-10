@@ -6,3 +6,7 @@
 override_dh_auto_install:
 	dh_auto_install
 	find debian/python*-pathlib/ -depth -type d -name tests -exec rm -rf {} \;
+
+override_dh_compress:
+	dh_compress -X.py -X.txt -X.rst -XMakefile -Xmake.bat
+
