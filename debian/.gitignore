@@ -1,5 +1,6 @@
 *.log
 *.substvars
+*.debhelper
 /files
 python-pathlib
 python3-pathlib

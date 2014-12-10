@@ -4,10 +4,8 @@ Section: python
 Priority: optional
 Build-Depends: debhelper (>= 9),
                dh-python,
-               python-all (>= 2.6.6-3~),
-               python3-all
+               python-all (>= 2.6.6-3~)
 X-Python-Version: >= 2.6
-X-Python3-Version: >= 3.2, << 3.4
 Standards-Version: 3.9.6
 Homepage: https://pypi.python.org/pypi/pathlib/
 
@@ -27,22 +25,4 @@ Description: set of Python 2 classes to handle filesystem paths
     (forward vs. backward slashes, etc.).
  .
  This is the Python 2 version of the package.
-
-Package: python3-pathlib
-Architecture: all
-Depends: ${misc:Depends}, ${python3:Depends}
-Description: set of Python 3 classes to handle filesystem paths
- Pathlib offers a set of classes to handle filesystem paths.
- It offers the following advantages over using string objects:
- .
-  * No more cumbersome use of os and os.path functions. Everythingss
-    can be done easily through operators, attribute accesses, and method calls.
-  * Embodies the semantics of different path types. For example,
-    comparing Windows paths ignores casing.
-  * Well-defined semantics, eliminating any warts or ambiguities
-    (forward vs. backward slashes, etc.).
- .
- This is the Python 3 version of the package, and this module is
- already part of the standard library since Python 3.4.
-
 
