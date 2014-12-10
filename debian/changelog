@@ -1,4 +1,4 @@
-PACKAGE (1.0.1-1) UNRELEASED; urgency=low
+pathlib (1.0.1-1) wheezy jessie utopic trusty unstable; urgency=low
 
   * Initial version.
 
