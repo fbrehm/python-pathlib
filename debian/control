@@ -30,7 +30,7 @@ Description: set of Python 2 classes to handle filesystem paths
 Package: python-pathlib-doc
 Architecture: all
 Section: doc
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, ${sphinxdoc:Depends}
 Description: set of Python 2 classes to handle filesystem paths (Documentation)
  Pathlib offers a set of classes to handle filesystem paths.
  It offers the following advantages over using string objects:
