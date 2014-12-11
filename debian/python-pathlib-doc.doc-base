@@ -1,6 +1,6 @@
 Document: python-pathlib
 Title: Python pathlib documentation
-Author: Frank Brehm
+Author: Antoine Pitrou
 Abstract: This documentation gives an introduction to the Python pathlib module.
 Section: Programming/Python
 
