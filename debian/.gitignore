@@ -3,4 +3,5 @@
 *.debhelper
 /files
 python-pathlib
+python-pathlib-doc
 tmp/
