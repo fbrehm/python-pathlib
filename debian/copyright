@@ -1,5 +1,5 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Source: https://gitlab.pb.local/backports/pathlib
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://pypi.python.org/pypi/pathlib/
 
 Files: *
 Copyright: 2012-2014 Antoine Pitrou and contributors
