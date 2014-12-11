@@ -5,8 +5,8 @@ export PYBUILD_NAME=pathlib
 %:
 	dh $@ --with python2 --buildsystem=pybuild
 
-# Disable tests
 override_dh_auto_test:
+	PYBUILD_TEST_ARGS="-s $(CURDIR)" dh_auto_test
 
 override_dh_compress:
 	dh_compress -X.py -X.txt -X.rst -XMakefile -Xmake.bat
