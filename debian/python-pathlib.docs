@@ -1,4 +1,5 @@
 PKG-INFO
 README.txt
 VERSION.txt
-docs
+docs/_build/html
+docs/_build/text
