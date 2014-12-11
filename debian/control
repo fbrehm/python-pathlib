@@ -2,8 +2,10 @@ Source: pathlib
 Maintainer: Frank Brehm <frank.brehm@profitbricks.com>
 Section: python
 Priority: optional
-Build-Depends: debhelper (>= 9), dh-python, python-sphinx,
-               python-all (>= 2.6.6-3~)
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all (>= 2.6.6-3~),
+               python-sphinx
 X-Python-Version: >= 2.6
 Standards-Version: 3.9.6
 Homepage: https://pypi.python.org/pypi/pathlib/
@@ -41,4 +43,3 @@ Description: set of Python 2 classes to handle filesystem paths (Documentation)
     (forward vs. backward slashes, etc.).
  .
  This package includes the documentation in HTML and TXT format.
-
