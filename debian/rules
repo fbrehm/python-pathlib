@@ -12,12 +12,9 @@ override_dh_auto_clean:
 override_dh_auto_build:
 	dh_auto_build
 	make -C docs html man text
-	#install -d docs/_build/man1
-	#install docs/_build/man/pathlib.1 docs/_build/man1/pathlib.1
 
 override_dh_auto_test:
 	PYBUILD_TEST_ARGS="-s $(CURDIR)" dh_auto_test
 
 override_dh_compress:
-	dh_compress -X.py -X.txt -X.rst -XMakefile -Xmake.bat
-
+	dh_compress -X.txt
