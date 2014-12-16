@@ -1,11 +1,5 @@
-python-pathlib (1.0.1-2) unstable; urgency=medium
-
-  * Rename source package from 'pathlib' to 'python-pathlib'
-
- -- Frank Brehm <frank.brehm@profitbricks.com>  Mon, 15 Dec 2014 10:21:47 +0100
-
-pathlib (1.0.1-1) unstable; urgency=medium
+python-pathlib (1.0.1-1) unstable; urgency=medium
 
   * Initial version (Closes: #772736).
 
- -- Frank Brehm <frank.brehm@profitbricks.com>  Wed, 10 Dec 2014 17:30:16 +0100
+ -- Frank Brehm <frank.brehm@profitbricks.com>  Tue, 16 Dec 2014 10:28:12 +0100
