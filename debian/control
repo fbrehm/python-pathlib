@@ -1,4 +1,4 @@
-Source: pathlib
+Source: python-pathlib
 Maintainer: Frank Brehm <frank.brehm@profitbricks.com>
 Section: python
 Priority: optional
