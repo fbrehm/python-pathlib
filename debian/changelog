@@ -1,3 +1,11 @@
+python-pathlib (1.0.1-3) unstable; urgency=medium
+
+  * Fix "please make the build reproducible" (Closes: #782471)
+  * Changed maintainer from frank.brehm@profitbricks.com to frank@brehm-
+    online.com
+
+ -- Frank Brehm <frank.brehm@profitbricks.com>  Wed, 24 Jun 2015 16:04:09 +0200
+
 python-pathlib (1.0.1-2) unstable; urgency=medium
 
   * Enable reproducible build py patching generation of manpage
