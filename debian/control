@@ -1,5 +1,5 @@
 Source: python-pathlib
-Maintainer: Frank Brehm <frank.brehm@profitbricks.com>
+Maintainer: Frank Brehm <frank@brehm-online.com>
 Section: python
 Priority: optional
 Build-Depends: debhelper (>= 9),
