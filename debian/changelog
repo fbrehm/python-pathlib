@@ -6,9 +6,12 @@ python-pathlib (1.0.1-2~pb1) wheezy jessie trusty utopic; urgency=medium
 
 python-pathlib (1.0.1-2) unstable; urgency=medium
 
-  * Rename source package from 'pathlib' to 'python-pathlib'
+  * Enable reproducible build py patching generation of manpage
+    (Closes: #782471)
+  * Change maintainer from frank.brehm@profitbricks.com to
+    frank@brehm-online.com
 
- -- Frank Brehm <frank.brehm@profitbricks.com>  Mon, 15 Dec 2014 10:21:47 +0100
+ -- Frank Brehm <frank@brehm-online.com>  Thu, 25 Jun 2015 09:58:15 +0200
 
 pathlib (1.0.1-1~pb1) wheezy jessie trusty utopic; urgency=medium
 
@@ -16,8 +19,8 @@ pathlib (1.0.1-1~pb1) wheezy jessie trusty utopic; urgency=medium
 
  -- Frank Brehm <frank.brehm@profitbricks.com>  Thu, 11 Dec 2014 12:04:27 +0100
 
-pathlib (1.0.1-1) unstable; urgency=medium
+python-pathlib (1.0.1-1) unstable; urgency=medium
 
   * Initial version (Closes: #772736).
 
- -- Frank Brehm <frank.brehm@profitbricks.com>  Wed, 10 Dec 2014 17:30:16 +0100
+ -- Frank Brehm <frank.brehm@profitbricks.com>  Tue, 16 Dec 2014 10:28:12 +0100
